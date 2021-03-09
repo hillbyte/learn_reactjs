@@ -1,17 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//Root React File
+import React, { Component } from "react"; //react library
+import ReactDOM from "react-dom"; //virtual dom react-dom only in root index
+
+import App from "./App";
+import "./index.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  //without jsx install es7 extension
+  //   React.createElement("h1", { class: "header" }, "I am pure react Element")
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  <App />,
+  document.getElementById("root")
+);
