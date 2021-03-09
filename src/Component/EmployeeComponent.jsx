@@ -14,7 +14,7 @@ class EmployeeComponent extends Component {
   render() {
     return (
       <Fragment>
-        <h1 className="profile-header"> Employees profile</h1>
+        <h1 className="profile-header"> Employee profiles</h1>
         <section>
           <article>
             <img src={this.state.emp_photo} />
